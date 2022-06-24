@@ -1,5 +1,5 @@
 # Getting Started with Create TODO app with React + Firebase
-### current project ---> https://todo-app-cp-f9fec.firebaseapp.com/
+### 🔥 Firebase 🌎 Hosting ---> https://todo-app-cp-f9fec.firebaseapp.com/
 <br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
