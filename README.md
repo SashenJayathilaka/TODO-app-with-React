@@ -1,25 +1,33 @@
-# Getting Started with Create React App
-
+# Getting Started with Create TODO app with React + Firebase
+### current project ---> https://todo-app-cp-f9fec.firebaseapp.com/
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+```
+npx create-react-app todo_app
+```
 
-### `npm start`
+In the project directory, you can run:
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
+```
+npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+```
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -28,8 +36,9 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+```
+npm run eject
+```
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -39,32 +48,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Available MATERIAL-UI Scripts
+find ----> https://v4.mui.com/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm install @material-ui/core
+```
+if not work
+```
+npm install -f @material-ui/core
+```
+```
+npm install -f @material-ui/styles
+```
+## Available MATERIAL-UI Scripts
+log in -----> https://firebase.google.com/?gclid=CjwKCAjwwdWVBhA4EiwAjcYJEJgGMjrNU4-3-B_y4t75X_98NqlIFJH0-iyVB-5GPQvLm-kihLaerhoCZNYQAvD_BwE&gclsrc=aw.ds <br>
+```
+npm install firebase
+```
+find info ----> https://dev.to/farazamiruddin/react-firebase-add-firebase-to-a-react-app-4nc9
+```
+firebase init hosting
+```
+```
+npm run build
+```
+```
+firebase deploy
+```
+### current project ---> https://todo-app-cp-f9fec.firebaseapp.com/
